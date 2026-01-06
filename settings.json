@@ -1,0 +1,107 @@
+{
+  // ======== 🎨 Tema e estética ========
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+
+  // ======== ✍️ Editor ========
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.4,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all",
+  "editor.inlineSuggest.enabled": false,
+  "editor.hover.delay": 125,
+  "editor.hover.hidingDelay": 125,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.quickSuggestions": { "strings": "on" },
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "inline",
+  "editor.tabCompletion": "on",
+  "editor.acceptSuggestionOnEnter": "on",
+
+  // ======== 🌈 Cores de guias ========
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#ffffff",
+    "editorIndentGuide.background1": "#aaaaaa33"
+  },
+
+  // ======== ⚙️ Formatação ========
+  "editor.formatOnSaveMode": "modifications",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  // ======== 🧠 Inteligência & IA ========
+  "github.copilot.enable": {
+    "markdown": true,
+    "plaintext": true
+  },
+  "AI.toolcall.confirmMode": "autoRun",
+
+  // ======== 🐍 Python & Jupyter ========
+  "python.createEnvironment.trigger": "off",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+
+  // ======== 🔧 Flutter / Dart ========
+  "dart.openDevTools": "flutter",
+
+  // ======== 🗂️ Explorer e organização ========
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+
+  // ======== 🧩 Extensões e animações ========
+  "extensions.ignoreRecommendations": true,
+
+  // ======== 🧰 Terminal e Git ========
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "chat.mcp.gallery.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "claudeCode.preferredLocation": "panel",
+  "window.commandCenter": false,
+  "workbench.tree.indent": 14,
+  "jupyter.askForKernelRestart": false
+}
